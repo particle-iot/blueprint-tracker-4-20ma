@@ -13,8 +13,10 @@ integrations: []
 hardwareDependencies:
   - name: Tracker One
     link: https://www.particle.io/tracker-one/
+    tags: [ "Tracker One" ]
   - name: Particle T-SoM Module
     link: https://www.particle.io/tracker-som/
+    tags: [ "T-SoM" ]
 description: |
   This project shows how to connect 4-20mA sensors to the Tracker One, including circuits for
   - 24V boost converter (from CAN_5V)
