@@ -1,0 +1,24 @@
+id: particle/blueprint-tracker-4-20ma
+category: tutorial
+icon: particle.png
+gitrepo: https://github.com/particle-iot/blueprint-tracker-4-20ma
+name: blueprint-tracker-4-20ma
+shortDescription: Adding 4-20mA current loop sensors to the Tracker One
+version: 1.0.0
+models: []
+language:
+  - C++
+cloudServices: []
+integrations:
+  - qcom-aware
+hardwareDependencies:
+  - name: Tracker One
+    link: https://www.particle.io/tracker-one/
+  - name: Particle T-SoM Module
+    link: https://www.particle.io/tracker-som/
+description: |
+  This project shows how to connect 4-20mA sensors to the Tracker One, including circuits for
+  - 24V boost converter (from CAN_5V)
+  - 30 mA current limiter
+  - TVS protection
+
