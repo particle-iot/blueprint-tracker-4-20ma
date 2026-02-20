@@ -3,7 +3,7 @@ type: Tutorial
 category: "Tracker projects"
 expertiseLevel: "Intermediate"
 tags: ["Tracker", "Sensors", "Industrial"]
-icon: assets/tracker-420ma-integration.svg
+icon: assets/tracker-420ma.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-4-20ma
 name: "Tracker 4-20mA integration"
 shortDescription: "Connect 4-20mA current loop sensors to the Tracker One."
